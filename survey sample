@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+    <head>
+        <title>simple website using only html</title>
+    </head>
+    <form>
+        
+            <h1>Farewell Party Survey Form</h1>
+        <fieldset>
+            <legend style="font-size:30px;">Personal Details</legend>
+            <label id="name-label" for="name">Name:</label>
+            <input type="text" required id="name" name="user-name" placeholder="Enter name here">
+            <br>
+            <br>
+            <label id="address-label" for="address">Address:</label>
+            <input type="text" required id="address" name="user-address" placeholder="Enter address here">
+            <br>
+            <br>
+            <label id="Email-label" for="Email">Email:</label>
+            <input type="text" required id="Email" name="user-Email" placeholder="Enter Email here">
+            <br>
+            <br>
+            <label id="Phone Number-label" for="Phone Number">Phone Number:</label>
+            <input type="text" required id="Phone Number" name="user-Phone Number" placeholder="Enter Phone Number here">
+            <br>
+            <br>
+            <label for="gender">Gender</label>
+            <p>
+            <input type="radio" name="gender" value="male" checked>Male
+            <br>
+            <br>
+          
+            <input type="radio" name="gender" value="female">Female
+            <br>
+            <br>
+          
+            <input type="radio" name="gender" value="other">Other
+            <br>
+            <br>
+            <label for="date-label">Date:</label>
+            <input type="date" name="date">
+        </p>
+        <div id="form">
+        <label for="role" id="label-role">Which option best describes you?</label>
+        <select name="role" id="role">
+        <option value=""></option>
+        <option value="student">student</option>
+        <option value="intern">intern</option>
+        <option value="Professor">Professor</option>
+        <option value="other">other</option>
+        </select>
+    </div>
+        <br>
+        <br>
+        <label id="label-attendance">Will you attend the party</label>
+        <input type="radio" id="label-attendance" value="yes" checked>yes
+        <input type="radio" id="label-attendance" value="no">No
+        <br>
+        <br>
+        <div>
+            <label>What did you like about the program?</label>
+            <br>
+            
+            <label for="inp-3">
+              <input type="checkbox" name="inp">Senior Meetups</input>
+            </label>
+            <br>
+            <label for="inp-4">
+              <input type="checkbox" name="inp">Game Sessions</input>
+            </label>
+            <br>
+            <label for="inp-5">
+              <input type="checkbox" name="inp">Switching to Hybrid Mode</input>
+            </label>
+            <br>
+            <label for="inp-6">
+              <input type="checkbox" name="inp" checked>Food</input>
+            </label>
+          </div>
+          <br>
+          <br>
+          <div class="form-control">
+            <label for="comment">
+              Any comments or suggestions
+            </label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here">
+                    </textarea>
+          </div>
+          <div class="button">
+            <button type="reset" value="reset" id="reset">
+              Reset
+            </button>
+            <button type="submit" value="submit" id="submit">
+              Submit
+            </button>
+          
+        </fieldset>
+    </form>
+    </div>      
+    </body>
+</html>
